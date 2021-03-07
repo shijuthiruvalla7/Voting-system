@@ -1,0 +1,37 @@
+
+.maindiv{
+    width: 50%;
+}
+.cnd1{
+    left: 3%;
+    top: 1%;
+    
+}
+
+.cnd2{
+    left: 3%;
+    top: 35%;
+}
+
+.cnd3{
+    left: 3%;
+    top: 70%;
+}
+
+@media(max-width:576px){
+    .maindiv{
+        width: 100%;
+    }
+
+    .cnd1{
+        left: 4%;
+    }
+    
+    .cnd2{
+        left: 4%;
+    }
+    
+    .cnd3{
+        left: 4%;
+    }
+}

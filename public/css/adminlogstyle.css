@@ -1,0 +1,9 @@
+.row{
+    width: 50%;
+}
+
+@media(max-width:576px){
+    .row{
+        width: 80%;
+    }
+}

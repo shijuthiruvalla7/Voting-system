@@ -1,0 +1,35 @@
+textarea:focus input:focus select:focus button:focus{
+    outline: none;
+}
+.input-group{
+    padding-top: 10px;
+}
+#log-sec{
+    height: 80vh; 
+}
+#mar-line{
+    border-left: 1px solid black; height: 35%; position: absolute; top: 10%; left: 50%;
+}
+@media screen and (max-width:576px){
+    #reg-col{
+        position: absolute;
+    }
+    #line-col{
+        position: absolute;
+        top: 52%;
+    }
+    #sign-col{
+        position: absolute;
+        top: 57%;
+    }
+    #log-sec{
+        height: 100vh;
+    }
+
+    #mar-line{
+        border-bottom: 1px solid black;
+        width: 70%;
+        position: relative;
+        left: 10%;
+    }
+}

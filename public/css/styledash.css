@@ -1,0 +1,122 @@
+body{
+    background-color: #272724;
+}
+.heading1{
+    color: white;
+    padding-left: 5%;
+    padding-top: .7%;
+}
+.btn-logout{
+    position: absolute;
+    left: 93%;
+    bottom: 20%;
+    font-size: 10px;
+}
+.bioback{
+    width: 55%;
+    height: 96vh;
+    background-color: #1B4AB8;
+    border-radius: 10px;
+    position: absolute;
+    left: 4%;
+    top: 2%;
+}
+
+.votebioback{
+    width: 50%;
+    height: 35vh;
+    background-color: #1B4AB8;
+    border-radius: 10px;
+    position: absolute;
+    left: 4%;
+    top: 2%;
+    
+}
+.votestat{
+    position: absolute;
+    width: 45%;
+    height: 6vh;
+    background-color: rgb(255, 72, 72);
+    color: white;
+    top: 39%;
+    left: 7%;
+    border-radius: 10px;
+
+}
+.votestattxt{
+    text-align: center;
+    padding-top: 3%;
+}
+
+.cand-img{
+    height: 70px;
+    width: 70px;
+}
+.cnd1{
+    width: 65%;
+    top: 5%;
+    left: 3%;
+}
+
+.pty1{
+    top: 52%;
+}
+.pty2{
+    top: 50%;
+    left: 1%;
+}
+.pty3{
+    top: 48%;
+    left: 3%;
+}
+
+.btn-vote{
+    left: 66%;
+    top: 41%;
+    width: 30%;
+}
+.cndtxt{
+    top: 40%;
+    left: 30%;
+}
+.cndpty{
+    left: 50%;
+    top: 40%;
+}
+.cndpty2{
+    left: 55%;
+    top: 35%;
+}
+.cndpty3{
+    left: 57%;
+    top: 36%;
+}
+@media(max-width:576px){
+    .heading1{
+        color: white;
+        padding-left: 1%;
+        padding-top: 3%;
+        font-size: .8rem;
+    }
+    .btn-logout{
+        position: absolute;
+        left: 83%;
+        bottom: 24%;
+        font-size: 10px;
+    }
+    .votebioback{
+        width: 92%;
+    }
+    .bioback{
+        width: 92%;
+        top: 0%;
+    }
+    .votestat{
+        width: 87%;
+        top: 75%;
+    }
+    .cndtxt{
+        top: 40%;
+        left: 33%;
+    }
+}
